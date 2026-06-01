@@ -1,0 +1,12 @@
+backends:
+  - name: app-1
+    url: http://localhost:3001
+    weight: 3
+
+  - name: app-2
+    url: http://localhost:3002
+    weight: 1
+
+  - name: app-3
+    url: http://localhost:3003
+    weight: 1
